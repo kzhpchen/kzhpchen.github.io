@@ -1,21 +1,21 @@
-site_name: "Xichen Pan's Homepage"
-site_author: 'Xichen Pan'
-copyright: '&copy; 2022-2025 Xichen Pan'
+site_name: "Zhanpeng Chen's Homepage"
+site_author: 'Zhanpeng Chen'
+copyright: '&copy; 2024-2026 Zhanpeng Chen'
 theme:
   name: material
   custom_dir: overrides
   palette:
     primary: white
     accent: orange
-  favicon: images/nyulogo.png
+  favicon: images/favicon.png
   icon:
     logo: material/account-school
   font:
     text: Gabarito
-    
+
 plugins:
   []
-  
+
 markdown_extensions:
   - meta
   - attr_list
@@ -34,23 +34,16 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
-          
+
 extra:
   social:
-    - icon: fontawesome/solid/envelope 
-      link: mailto:xcpan.mail@gmail.com
+    - icon: fontawesome/solid/envelope
+      link: mailto:troychen927@stu.pku.edu.cn
     - icon: academicons/google-scholar
-      link: https://scholar.google.com/citations?hl=en&user=9wh9VXIAAAAJ&view_op=list_works&sortby=pubdate
-    - icon: academicons/semantic-scholar
-      link: https://www.semanticscholar.org/author/Xichen-Pan/2158877024?sort=pub-date
-    - icon: fontawesome/brands/github 
-      link: https://github.com/xichenpan
-    - icon: fontawesome/brands/linkedin 
-      link: https://www.linkedin.com/in/xichenpan/
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/xichen_pan
-  analytics:
-    provider: google
-    property: G-KBQPT9Q9MJ
+      link: https://scholar.google.com/citations?user=ca5deHsAAAAJ&hl=zh-CN
+    - icon: fontawesome/brands/github
+      link: https://github.com/kzhpchen
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/zhanpeng-chen-421918305/
 extra_css:
-  - stylesheets/extra.css 
+  - stylesheets/extra.css
